@@ -1,0 +1,161 @@
+/* Area do Header */
+body{
+background-color: rgb(143, 145, 145);
+}
+header  {
+  background-color: #252328;
+  padding: 20px;
+}
+
+.pcentralizado{
+text-align: center;
+}
+a{
+  text-decoration: none;
+  @import url(https://fonts.googleapis.com/css2?family=Anton&display=swap);
+}
+p a {
+  margin: 0 100px;
+  color: white;
+  display: inline-block;
+}
+.pbranco{
+color:white;
+font-size: 50px;
+text-align:center;
+margin:0;
+margin-left:280px;
+
+}
+div{
+  display: flex;
+  align-items: center;
+}
+
+/*Sesão quem somos:*/ /*HOME*/
+#sectionquemsomos{
+  color: rgb(0, 0, 0);
+  background-color: rgb(165, 175, 221) ;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 15px;
+}
+.section1{
+      margin:5px;
+      font-size:20px;
+}
+
+/*Seção Processo Criativo na PixelWave Studios:*/ /*HOME*/
+#sectionprocessocriativo{
+  color: rgb(0, 0, 0);
+  background-color: rgb(165, 175, 221) ;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 15px;
+}
+.section2{
+  margin:5px;
+  font-size:20px;
+}
+ul{
+  margin: 5px;
+}
+
+/*Seção Nosssa Equipe:*/ /*HOME*/
+#sectionnossaequipe {
+  color: rgb(0, 0, 0);
+  background-color: rgb(165, 175, 221) ;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 15px;
+}
+.equipe {
+    display: flex;
+    flex-direction: column;
+    width: calc(20% - 10px);
+}
+.equipe img {
+    height: 150px;
+    width: 100px;
+    margin-right: 20px;
+
+}
+.equipe p {
+    margin-top: 10px;
+}
+
+/*Seção Area de venda:*/ /*PRODUTOS*/
+.divvenda{
+  display: flex;
+  flex-wrap: wrap;
+}
+aside {
+    color: rgb(0, 0, 0);
+    background-color: rgb(165, 175, 221);
+    width: 18%;
+    border-radius: 15px;
+    margin: 20px 35px;
+}
+aside img{
+padding:0 35px ;
+}
+aside p {
+ font-size:18px;
+ margin-top:0;
+ text-align:center;
+}
+aside h1 {
+  font-size:25px;
+  margin:0 10px;
+  text-align:center;
+ }
+ /*Seção contatos:*/ /*CONTATO*/
+ form {
+  background-color:  rgb(165, 175, 221);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #4CAF50;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  
+}
+
+button:hover {
+  background-color: #45a049;
+}
