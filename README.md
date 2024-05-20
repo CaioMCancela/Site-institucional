@@ -1,6 +1,3 @@
-<p align="center" style="margin: 0; padding: 0;">
-  <img src="https://i.ibb.co/jrSygVb/logocompleta.jpg" alt="Logo Completa" style="width: 100%;">
-</p>
 
 # Site Institucional:PixelHave studios
 ### Home
